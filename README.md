@@ -8,8 +8,6 @@
 
 主要逻辑在主窗口 `mainwindow.cpp` 这个代码中。
 
-核心的点在两个地方，或者说，两个函数。
-
 **第一个**是 `MainWindow` 中设置窗口属性的一个 win32 api，即，`SetWindowLong`，这个函数可以通过 `Windows.h` 头文件引入，
 
 ```cpp

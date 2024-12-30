@@ -1,5 +1,9 @@
 {
   "files.associations": {
     "qapplication": "cpp"
-  }
+  },
+  // do not include headers automatically
+  "clangd.arguments": [
+    "-header-insertion=never"
+  ],
 }
